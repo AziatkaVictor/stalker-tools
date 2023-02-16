@@ -1,5 +1,5 @@
 @echo off
 @setlocal enableextensions
 @cd /d "%~dp0"
-python main.py -no_errors textures -file test2.txt -parse -overwrite
+env\Scripts\python main.py -no_errors textures -file main.log -parse -overwrite
 pause

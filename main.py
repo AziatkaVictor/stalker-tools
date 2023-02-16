@@ -4,10 +4,10 @@ from utils import *
 import argparse
 
 
-# Начало программы
 if __name__ == "__main__":
     os.system('color')
 
+    # Указываем аргументы для работы
     parser = argparse.ArgumentParser()
     subparsers = parser.add_subparsers(title='Команды')
     parser.add_argument("-no_errors", required=False, dest = "no_errors", action='store_true', help="Отключить показ ошибок")

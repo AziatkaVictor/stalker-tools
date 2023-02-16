@@ -1,6 +1,6 @@
 {
-    "input": "E:\\Mods_Cop\\XRay\\gamedata\\textures",
-    "output": "D:\\USERS\\Администратор\\Desktop\\textures",
+    "input": "D:\\XRay\\gamedata\\textures",
+    "output": "E:\\XRay\\gamedata\\textures",
     "file_types": [
         ".dds",
         ".thm",
