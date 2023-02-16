@@ -1,0 +1,11 @@
+{
+    "input": "E:\\Mods_Cop\\XRay\\gamedata\\textures",
+    "output": "D:\\USERS\\Администратор\\Desktop\\textures",
+    "file_types": [
+        ".dds",
+        ".thm",
+        "_bump.dds",
+        "_bump#.dds",
+        "_bump.thm"
+    ]
+}
