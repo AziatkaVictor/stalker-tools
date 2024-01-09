@@ -32,7 +32,7 @@ Arguments for **textures**:
 * **file** `FILE` - Path to the text file *(required for work)*
 * **overwrite** - Overwrite a texture if it is already in the folder?
 * **parse** - Analyze the log so that the program itself finds the missing textures
-* 
+  
 ## Example for *.bat
 
 Here is an example of how this program is usually used and with what arguments. In this case, we are copying textures with parsing the log and overwriting existing textures.
