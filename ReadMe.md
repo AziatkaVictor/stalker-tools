@@ -1,41 +1,41 @@
 # Stalker Tools
 
-Небольшой набор инструментов, который я писал лично для себя, когда была необходимость. В данный момент умеет только копировать текстуры, но этого тоже будет достаточно, как по мне.
+A small set of tools that I wrote personally for myself when there was a need. At the moment it can only copy textures, but this will also be enough, as for me.
 
-## Как использовать
+## How to use
 
-Указываем свои пути в настройках, в батнике указываем путь к логу, проще всего будет скопировать файл в папку с программой и просто указать его название. Запускаем и ждем выполнения.
+We indicate our paths in the settings, in the body file we indicate the path to the log, the easiest way would be to copy the file to the folder with the program and simply indicate its name. We launch and wait for execution.
 
-## Настройки
+## Settings
 
-Ниже описана вся информация о настройке программы.
+All information about setting up the program is described below.
 
-### Основные параметры
+### Basic arguments
 
-Аргументы для всех режимов работы (необходимо указывать перед тем, как писать режим работы):
+Arguments for all operating modes (must be specified before writing the operating mode):
 
-* **no_errors** - Отключить вывод ошибок
-* **silent** - Отключить вывод сообщений о копировании
+* **no_errors** - Disable errors
+* **silent** - Disable masseges
 
-### Пути и форматы:
+### Pathes and formats
 
-В файле `settings.json` так же можно указать некоторые аргументы, для удобства они были вынесены в отдельный файл.
+You can also specify some arguments in the `settings.json` file. For convenience, they have been placed in a separate file.
 
-* **input** - Где искать текстуры
-* **output** - Куда копировать текстуры
-* **file_types** - Текстуры каких форматов необходимы
+* **input** - Path to search files
+* **output** - Path to copy files
+* **file_types** - Which formats are needed
 
-### Копирование текстур:
+### Copying texures
 
-Аргументы для **textures**:
+Arguments for **textures**:
 
-* **file** `FILE` - Путь к текстовому файлу *(требуеться для работы)*
-* **overwrite** - Перезаписывать текстуру, если она уже находиться в папке?
-* **parse** - Анализировать лог, чтобы программа сама нашла недостающие текстуры
+* **file** `FILE` - Path to the text file *(required for work)*
+* **overwrite** - Overwrite a texture if it is already in the folder?
+* **parse** - Analyze the log so that the program itself finds the missing textures
+* 
+## Example for *.bat
 
-## Пример *.bat файла
-
-Тут написан пример того, как обычно используется данная программа и с какими аргументами. В данном случае, у нас идет копирование текстур с парсированием лога и перезаписью уже сущуствующих текстур.
+Here is an example of how this program is usually used and with what arguments. In this case, we are copying textures with parsing the log and overwriting existing textures.
 
 ```powershell
 env\Scripts\python main.py textures -file main.log -parse -overwrite
